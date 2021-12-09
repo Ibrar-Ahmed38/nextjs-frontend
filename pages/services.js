@@ -25,7 +25,7 @@ const services = () => {
                   Affordable Ads
                 </div>
                 <p className="text-gray-700 text-base">
-                  Fair monthly plans that won't ever rise in price. On average,
+                  Fair monthly plans that won&apost ever rise in price. On average,
                   a messeur can cover the cost of his ad in less than one hour.
                   That what we call cha-ching
                 </p>
@@ -51,7 +51,7 @@ const services = () => {
                   Affordable Ads
                 </div>
                 <p className="text-gray-700 text-base">
-                  Fair monthly plans that won't ever rise in price. On average,
+                  Fair monthly plans that won&apost ever rise in price. On average,
                   a messeur can cover the cost of his ad in less than one hour.
                   That what we call cha-ching
                 </p>
@@ -77,7 +77,7 @@ const services = () => {
                   PingPong
                 </div>
                 <p className="text-gray-700 text-base">
-                  Fair monthly plans that won't ever rise in price. On average,
+                  Fair monthly plans that won&apost ever rise in price. On average,
                   a messeur can cover the cost of his ad in less than one hour.
                   That what we call cha-ching
                 </p>
@@ -103,7 +103,7 @@ const services = () => {
                   Affordable Ads
                 </div>
                 <p className="text-gray-700 text-base">
-                  Fair monthly plans that won't ever rise in price. On average,
+                  Fair monthly plans that won&apost ever rise in price. On average,
                   a messeur can cover the cost of his ad in less than one hour.
                   That what we call cha-ching
                 </p>
@@ -129,7 +129,7 @@ const services = () => {
                   Affordable Ads
                 </div>
                 <p className="text-gray-700 text-base">
-                  Fair monthly plans that won't ever rise in price. On average,
+                  Fair monthly plans that won&apost ever rise in price. On average,
                   a messeur can cover the cost of his ad in less than one hour.
                   That what we call cha-ching
                 </p>
