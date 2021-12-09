@@ -22,7 +22,7 @@ const index = () => {
 				
 					<div className="hidden md:flex items-center space-x-3 ">
 						<a href="" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-red-700 hover:text-white transition duration-300">Log In</a>
-						<a href="/signup" className="py-2 px-2 font-medium w-32 text-center text-white bg-red-700 rounded hover:bg-red-900 transition duration-300">Sign Up</a>
+						<a href="/Signup" className="py-2 px-2 font-medium w-32 text-center text-white bg-red-700 rounded hover:bg-red-900 transition duration-300">Sign Up</a>
 					</div>
 				
 					<div className="md:hidden flex items-center">

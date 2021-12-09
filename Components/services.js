@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-const Services = () => {
+export default function Services() {
   return (
-    <>
-    <div className="service bg-gray-50 h-screen">
-    <h1 className="text-center text-3xl pt-14  mb-14 font-bold">Why Messeur Choose Us</h1>
+    <div className="bg-gray-50">
+    <div className="service bg-gray-50 h-screen w-full">
+    <h1 className="text-center text-3xl pt-14  mb-8 font-bold">Why Messeur Choose Us</h1>
    
       <div className="flex gap-x-6 gap-y-4 pt-6 bg-gray-50 items-center justify-center mx-auto flex-wrap md:container md:mx-auto">
         <div className="w-80 h-72  flex">
@@ -139,8 +139,8 @@ const Services = () => {
 
       </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Services;
+

@@ -1,7 +1,6 @@
-
-const Homepage = () => {
+export default function Homepage  (){
     return (
-        <div className="">
+        <div>
             <div className="flex flex-wrap bg-black ">
                 <div className=" px-24 py-24 pt-40">
                     <div className="mb-12 mx-auto items-center">
@@ -29,4 +28,4 @@ const Homepage = () => {
     )
 }
 
-export default Homepage
+
