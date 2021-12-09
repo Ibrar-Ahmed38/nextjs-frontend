@@ -1,5 +1,4 @@
-import React from 'react'
-import "tailwindcss/tailwind.css";
+
 
 const Homepage = () => {
     return (
@@ -13,17 +12,17 @@ const Homepage = () => {
                     </div>
 
                     <div className="">
-                    <div className="h-24 rounded-md border-2 bg-white mb-20 shadow">
-                       
-                       <div className="headings">
-                       <p className=" bg-white  bg-white text-gray-600 mb-5">city or postal code</p>
-                        <p className="bg-white ">Cadriff, USA</p>
-                        </div>
+                        <div className="h-24 rounded-md border-2 bg-white mb-20 shadow">
 
-                        <div className="flex items-end justify-end mx-auto">
-                            <button className="bg-red-700 rounded-md font-medium text-white mr-10 bg-white -mt-16 w-24 h-12 ">Search</button>
+                            <div className="headings">
+                                <p className=" bg-white  bg-white text-gray-600 mb-5">city or postal code</p>
+                                <p className="bg-white ">Cadriff, USA</p>
+                            </div>
+
+                            <div className="flex items-end justify-end mx-auto">
+                                <button className="bg-red-700 rounded-md font-medium text-white mr-10 bg-white -mt-16 w-24 h-12 ">Search</button>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>

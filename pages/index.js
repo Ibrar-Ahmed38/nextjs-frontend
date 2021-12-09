@@ -1,5 +1,3 @@
-import React from 'react'
-import "tailwindcss/tailwind.css";
 import Hompage from './Homepage'
 import Services from './services'
 import About from './about';

@@ -1,10 +1,8 @@
-import React from 'react'
-import "tailwindcss/tailwind.css";
 import Image from 'next/image'
 
 const About = () => {
     return (<>
-        <div className="">
+        <div>
             <h3 className="text-center text-3xl pt-10  font-bold">Popular Cities</h3>
         </div>
 
