@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const services = () => {
+const Services = () => {
   return (
     <>
     <div className="service bg-gray-50 h-screen">
@@ -143,4 +143,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;
