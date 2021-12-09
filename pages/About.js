@@ -52,9 +52,7 @@ const About = () => {
             </div>
 
         </div>
-        {/* <div className="flex px-14 pt-14 space-x-6 flex-wrap text-center">
-        
-        </div> */}
+       
     </>
     )
 }
