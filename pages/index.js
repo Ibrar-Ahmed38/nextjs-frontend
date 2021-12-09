@@ -1,7 +1,3 @@
-import Hompage from './Homepage'
-import Services from './services'
-import About from './about';
-
 const index = () => {
   return (
     <div>
@@ -43,9 +39,9 @@ const index = () => {
 			</div>
 		
 		</nav>
-		<Hompage />
-		<About/>
-		<Services/>
+		{/* <Hompage /> */}
+		{/* <About/> */}
+		{/* <Services/> */}
 		
     </div>
   )
