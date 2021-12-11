@@ -9,7 +9,7 @@ const About = () => {
         </h3>
       </div>
 
-      <div className="flex  p-20 pt-14 gap-x-6 gap-y-6 mx-auto  flex-wrap">
+      <div className="flex p-14 gap-6 pt-14 mx-auto flex-wrap">
         <div className="flex-wrap">
           <div>
             <Image
