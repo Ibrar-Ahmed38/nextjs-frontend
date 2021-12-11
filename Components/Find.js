@@ -1,4 +1,5 @@
 import Image from "next/image"
+import 'tailwindcss/tailwind.css'
 export default function Find() {
     return (
         <div className="w-full h-96">

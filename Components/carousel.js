@@ -1,4 +1,6 @@
 import Image from "next/image";
+import 'tailwindcss/tailwind.css'
+
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
