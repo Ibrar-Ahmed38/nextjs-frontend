@@ -7,7 +7,7 @@ export default function Services() {
           Why Messeur Choose Us
         </h1>
 
-        <div className="flex  gap-x-6 gap-y-6  bg-gray-50 items-center justify-center mx-auto pl-4 flex-wrap">
+        <div className="flex  gap-6  bg-gray-50 items-center justify-center mx-auto pl-4 flex-wrap">
           <div className="w-96 h-80  flex">
             <div className="bg-white rounded  overflow-hidden shadow-lg">
               <div className="card-1">
@@ -24,7 +24,7 @@ export default function Services() {
                   <div className="font-bold text-center text-1xl mb-2 ">
                     <h1>Affordable Ads</h1>
                   </div>
-                  <p className="text-gray-700 text-base">
+                  <p className="text-gray-700">
                     Fair monthly plans that won&apost ever rise in price. On
                     average, a messeur can cover the cost of his ad in less than
                     one hour. That what we call cha-ching
@@ -86,7 +86,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="w-96 h-80   flex mb-10">
+          <div className="w-96 h-80   flex">
             <div className="bg-white rounded  overflow-hidden shadow-lg">
               <div className="card-1">
                 <div className="text-center pt-4">
@@ -112,7 +112,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="w-96 h-80   flex mb-10">
+          <div className="w-96 h-80   flex">
             <div className="bg-white rounded md:min-w-full overflow-hidden shadow-lg">
               <div className="card-1">
                 <div className="text-center pt-8">
@@ -124,7 +124,7 @@ export default function Services() {
                     alt="Sunset in the mountains"
                   />
                 </div>
-                <div className="px-6 py-4 pt-4">
+                <div className="pt-4">
                   <div className="font-bold text-center text-1xl mb-2 ">
                     <h1>100% Satisfication Guarantee</h1>
                   </div>

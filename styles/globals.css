@@ -62,3 +62,8 @@ a {
 .slide__two{
   background-color: #FFFFFF;
 }
+
+.imges{
+  position: absolute;
+  top: 0;
+}

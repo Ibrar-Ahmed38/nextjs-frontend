@@ -17,8 +17,8 @@ export default function Details() {
             </div>
           </div>
 
-          <div className="images  items-center justify-center mx-auto -mt-40  ">
-            <Image src="/images/design.png" alt="Somethingelse" className="pt-4" width={230} height={425} />
+          <div className="images  items-center justify-center mx-auto   ">
+            <Image src="/images/design.png" alt="Somethingelse" className="imges pt-4" width={230} height={425} />
           </div>
         </div>
       </div>
