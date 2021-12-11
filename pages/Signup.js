@@ -1,7 +1,5 @@
-import { useState } from "react";
-import AiFillEyeInvisible from 'react-icons/Ai'
 
-export default function Home() {
+export default function Signup() {
  
     return (
         <>

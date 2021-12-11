@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { TiLocation } from 'react-icons/Ti';
+
 
 export default function Homepage  (){
     return (
@@ -15,7 +15,7 @@ export default function Homepage  (){
                     
                         <div className="absolute pt-8  h-28 rounded-md border-2 bg-gray-50 mb-20 shadow md:w-2/5 lg:w-2/4">
                         <div className="search__location">
-                        <TiLocation className="serach_icon text-gray-900  ml-12 text-3xl"/>
+                        {/* <TiLocation className="serach_icon text-gray-900  ml-12 text-3xl"/> */}
                         </div>
                             <div className="absolute headings text-sm pl-32 ">
                                
