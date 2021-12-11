@@ -65,13 +65,13 @@ a {
   transform: skewY();
 }
 
-.child_div{
-  width: 100%;
-  height: 100vh;
-  background-image: url('../public/images/rectangle.png');
-}
+
 
 .serach_icon{
   position: absolute;
   margin-top: 10px;
+}
+
+.austin__Card:hover{
+  
 }

@@ -1,11 +1,15 @@
-import Homepage from "./Homepage"
-import About from "../Components/about"
-import Services from "../Components/services"
+
+ import Homepage from "./Homepage"
+ import About from "../Components/about"
+ import Services from "../Components/services"
 import Details from '../Components/details'
 import  Carousel  from "../Components/carousel"
 import Find from "../Components/Find"
+import Link from 'next/link'
+
 
 const index = () => {
+	
   return (
     <div>
       	<nav className="bg-white shadow-lg">
@@ -14,10 +18,11 @@ const index = () => {
 					<div className="flex space-x-7">
 						<div>
 					
-							<a href="" className="flex items-center py-4 px-2">
+							<Link href=""><a className="flex items-center py-4 px-2">
 								
-								<span className="font-semibold text-3xl text-black-500 text-lg">Mr Messeur</span>
+								<span className="font-semibold text-3xl text-lg">Mr Masseur</span>
 							</a>
+							</Link> 
 						</div>
 					
 					
@@ -25,17 +30,16 @@ const index = () => {
 				
 					<div className="hidden md:flex items-center space-x-3 ">
 						<a href="" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-red-700 hover:text-white transition duration-300">Log In</a>
-						<a href="/Signup" className="py-2 px-2 font-medium w-32 text-center text-white bg-red-700 rounded hover:bg-red-900 transition duration-300">Sign Up</a>
+						<Link href="/Signup"><a  className="py-2 px-2 font-medium w-32 text-center text-white bg-red-700 rounded hover:bg-red-900 transition duration-300">Sign Up</a></Link>
 					</div>
 				
 					<div className="md:hidden flex items-center">
 						<button className="outline-none mobile-menu-button">
-				
 					</button>
 					</div>
 				</div>
 			</div>
-		
+			
 			<div className="hidden mobile-menu">
 				<ul className="">
 					<li className="active"><a href="index.html" className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
@@ -46,12 +50,12 @@ const index = () => {
 			</div>
 		
 		</nav>
-		<Homepage />
-		 <About/>
-		<Services/>
-		<Details/>
-		<Carousel />
-		<Find />
+		<Homepage /> 
+		   <About/> 
+		  <Services/> 
+		 <Details/> 
+		 <Carousel />
+		<Find /> 
 	
 		
     </div>

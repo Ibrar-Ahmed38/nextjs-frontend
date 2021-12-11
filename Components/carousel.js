@@ -12,13 +12,13 @@ SwiperCore.use([Pagination, Navigation]);
 
 function Carousel() {
   return (
-    <div className="carousel w-full flex bg-gray-50">
+    <div className="carousel  flex flex-wrap bg-gray-50">
       <div className="images ">
         <Image src="/images/image1.png" width={600} height={600} />
       </div>
-      <div className="text-4xl font-bold pt-10">
+      <div className="text-1xl font-bold pt-10 md:text-2xl lg:text-4xl ">
           <h1>What Clients Are Saying</h1>
-      <h1>About Our Masseurs</h1>
+          <h1>About Our Masseurs</h1>
       </div>
       <div className="absolute   pt-48 h-full ml-72">
         <Swiper
@@ -33,7 +33,7 @@ function Carousel() {
           navigation={true}
           className="mySwiper"
         >
-          <SwiperSlide className="slider-width pt-8">
+          <SwiperSlide className="slider-width pt-8 ">
               <div >
                   <p className="text-sm">  
                 Synth chartreuse Iphone cray raw claim bunch everyday carry
@@ -78,7 +78,7 @@ function Carousel() {
               </div>
           </SwiperSlide>
 
-          <SwiperSlide className="slider-width">Slide 3</SwiperSlide>
+          <SwiperSlide className="slider-width md:w1/2 lg:2/4">Slide 3</SwiperSlide>
           <SwiperSlide className="slider-width">Slide 4</SwiperSlide>
           
         </Swiper>

@@ -1,4 +1,8 @@
+import { useState } from "react";
+import AiFillEyeInvisible from 'react-icons/Ai'
+
 export default function Home() {
+ 
     return (
         <>
             <div className="bg-red-700 h-52">
@@ -32,9 +36,9 @@ export default function Home() {
 
                             <div>
                                 <label className="block">Password</label>
-
+                               
                                 <input
-                                    type="password"
+                                    type="password" 
                                     className="w-full outline-none h-10 bg-gray-50 border-blue-400"
                                     placeholder="******"
                                 />
@@ -42,11 +46,13 @@ export default function Home() {
 
                             <div>
                                 <label className="block">Confrim password</label>
+                    
                                 <input
                                     type="password"
                                     className="w-full outline-none h-10 bg-gray-50 border-blue-400"
                                     placeholder="******"
                                 />
+
                             </div>
                         </form>
                     </div>
