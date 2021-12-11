@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <div>
-        <h3 className="text-center text-3xl pt-10  font-bold">
+        <h3 className="text-center text-3xl justify-center items-center mx-auto pt-10  font-bold">
           Popular Cities
         </h3>
       </div>

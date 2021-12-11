@@ -16,12 +16,9 @@ export default function Home() {
                         <form className="space-y-4  md:space-y-4 ">
                             <div>
                                 <label className="block">Select Account type</label>
-
-                                <input
-                                    type="text"
-                                    className="w-full outline-none h-10 bg-gray-50 border-blue-400"
-                                    placeholder="I'm a messeur"
-                                />
+                                <select id="account-type" className="w-full outline-none bg-gray-50 h-10 ">
+                                <option value="I'm a messeur">Im a Messeur</option>
+                                </select>   
                             </div>
 
                             <div>

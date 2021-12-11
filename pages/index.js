@@ -1,6 +1,9 @@
 import Homepage from "./Homepage"
 import About from "../Components/about"
 import Services from "../Components/services"
+import Details from '../Components/details'
+import  Carousel  from "../Components/carousel"
+import Find from "../Components/Find"
 
 const index = () => {
   return (
@@ -46,6 +49,10 @@ const index = () => {
 		<Homepage />
 		 <About/>
 		<Services/>
+		<Details/>
+		<Carousel />
+		<Find />
+	
 		
     </div>
   )
