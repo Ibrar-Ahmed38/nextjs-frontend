@@ -20,7 +20,7 @@ const index = () => {
 					
 							<Link href=""><a className="flex items-center py-4 px-2">
 								
-								<span className="font-semibold text-3xl text-lg">Mr Masseur</span>
+								<span className="font-semibold text-3xl">Mr Masseur</span>
 							</a>
 							</Link> 
 						</div>
