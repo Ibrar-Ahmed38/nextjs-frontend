@@ -59,16 +59,7 @@ a {
   background-color: #FFFFFF;
 }
 
-.rectangle{
-  width: 100%;
-  height: 100%;
-  transform: skewY();
-}
 
 
 
-.serach_icon{
-  position: absolute;
-  margin-top: 10px; 
-}
 

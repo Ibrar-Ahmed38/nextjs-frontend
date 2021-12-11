@@ -9,17 +9,16 @@ const About = () => {
         </h3>
       </div>
 
-      <div className="flex px-14 py-14 pt-14 gap-x-8 gap-y-8 mx-auto flex-wrap">
-        <div className="flex-wrap austin__Card hover:bg-gray-600 ">
-          <div className="bg-gray-700 overflow-visible">
-            <Image 
+      <div className="flex px-14 py-14 pt-14 gap-x-8 gap-y-8 mx-auto  flex-wrap">
+        <div className="flex-wrap">
+          <div>
+            <Image
               src="/images/austin.png"
               alt="something"
               className="items-center justify-items-center mx-auto"
               width={300}
               height={200}
-
-           />
+            />
             <h1 className="absolute -mt-28 text-white justify-center text-3xl ml-24">
               Austin
             </h1>
