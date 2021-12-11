@@ -5,11 +5,11 @@ export default function Services() {
 
       <div className="flex flex-wrap  bg-gray-50">
       <div className="service bg-gray-50  ">
-        <h1 className="text-center text-3xl pt-8  mb-8 font-bold">
+        <h1 className="text-center text-3xl pt-8 mb-8 font-bold">
           Why Messeur Choose Us
         </h1>
 
-        <div className="flex  gap-x-8 gap-y-8  bg-gray-50 items-center justify-center mx-auto pl-4 flex-wrap">
+        <div className="flex  bg-gray-50 items-center justify-center mx-auto pl-4 flex-wrap">
           <div className="w-96 h-80  flex">
             <div className="bg-white rounded  overflow-hidden shadow-lg">
               <div className="card-1">
