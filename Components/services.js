@@ -1,8 +1,9 @@
 import Image from "next/image";
 
 export default function Services() {
-  return (
-    <div className="flex flex-wrap  bg-gray-50">
+  return (<div className="container">
+
+      <div className="flex flex-wrap  bg-gray-50">
       <div className="service bg-gray-50  ">
         <h1 className="text-center text-3xl pt-8  mb-8 font-bold">
           Why Messeur Choose Us
@@ -140,6 +141,7 @@ export default function Services() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
