@@ -24,7 +24,8 @@ a {
 }
 
 .slider-width{
-  width: 405.333px !important;
+  top: 0;
+  width: 400.333px !important;
   margin-right: 30px;
 }
 
@@ -58,8 +59,3 @@ a {
 .slide__two{
   background-color: #FFFFFF;
 }
-
-
-
-
-

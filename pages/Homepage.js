@@ -12,7 +12,7 @@ export default function Homepage  (){
                         <h1 className="text-2xl  text-white font-bold md:text-5xl lg:text-6xl ">Masseur near you</h1>
                     </div>
                     
-                        <div className="absolute pt-8  h-28 rounded-md border-2 bg-gray-50 mb-20 shadow md:w-2/5 lg:w-2/4">
+                        <div className="absolute w-2/5 pt-8  h-28 rounded-md border-2 bg-gray-50 mb-20 shadow ">
                         <div className="search__location">
                         {/* <TiLocation className="serach_icon text-gray-900  ml-12 text-3xl"/> */}
                         </div>
@@ -31,8 +31,8 @@ export default function Homepage  (){
                     
                 </div>
 
-                <div className="relative child_div ml-3.5">
-                    <Image  src="/images/rectangle.png" alt='ss' className='absolute md:w-full lg:w-full' width={720} height={690}/>
+                <div className="ml-36">
+                    <Image  src="/images/rectangle.png" alt='ss' width={734} height={757}/>
                 </div>
             </div>
         </div>

@@ -53,9 +53,9 @@ const index = () => {
 		<Homepage /> 
 		   <About/> 
 		  <Services/> 
-		 <Details/> 
-		 <Carousel />
-		<Find /> 
+		  <Details/> 
+		 {/* <Carousel />
+		<Find />  */}
 	
 		
     </div>

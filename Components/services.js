@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className="bg-gray-50">
+    <div className="flex flex-wrap  bg-gray-50">
       <div className="service bg-gray-50  ">
         <h1 className="text-center text-3xl pt-8  mb-8 font-bold">
           Why Messeur Choose Us
         </h1>
 
-        <div className="flex gap-x-6 gap-y-4  bg-gray-50 items-center justify-center mx-auto  flex-wrap md:container md:mx-auto">
-          <div className="w-80 h-72  flex">
+        <div className="flex  gap-x-8 gap-y-8  bg-gray-50 items-center justify-center mx-auto pl-4 flex-wrap">
+          <div className="w-96 h-80  flex">
             <div className="bg-white rounded  overflow-hidden shadow-lg">
               <div className="card-1">
                 <div className="text-center pt-8">
@@ -35,7 +35,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="w-80 h-72  flex">
+          <div className="w-96 h-80  flex">
             <div className="bg-white rounded  overflow-hidden shadow-lg">
               <div className="card-1">
                 <div className="text-center pt-8">
@@ -61,7 +61,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="w-80 h-72  flex">
+          <div className="w-96 h-80   flex">
             <div className="bg-white rounded  overflow-hidden shadow-lg">
               <div className="card-1">
                 <div className="text-center pt-8">
@@ -87,10 +87,10 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="w-80 h-72  flex mb-10">
+          <div className="w-96 h-80   flex mb-10">
             <div className="bg-white rounded  overflow-hidden shadow-lg">
               <div className="card-1">
-                <div className="text-center pt-8">
+                <div className="text-center pt-4">
                   <Image
                     className=""
                     src="/images/4.png"
@@ -113,7 +113,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="w-80 h-72  flex mb-10">
+          <div className="w-96 h-80   flex mb-10">
             <div className="bg-white rounded md:min-w-full overflow-hidden shadow-lg">
               <div className="card-1">
                 <div className="text-center pt-8">

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import 'tailwindcss/tailwind.css'
 
 const About = () => {
   return (
@@ -10,15 +9,15 @@ const About = () => {
         </h3>
       </div>
 
-      <div className="flex px-14 py-14 pt-14 gap-x-8 gap-y-8 mx-auto  flex-wrap">
+      <div className="flex p-20 pt-14 gap-x-8 gap-y-8 mx-auto  flex-wrap">
         <div className="flex-wrap">
           <div>
             <Image
               src="/images/austin.png"
               alt="something"
               className="items-center justify-items-center mx-auto"
-              width={300}
-              height={200}
+              width={330}
+              height={230}
             />
             <h1 className="absolute -mt-28 text-white justify-center text-3xl ml-24">
               Austin
@@ -31,8 +30,8 @@ const About = () => {
             <Image
               src="/images/dallas.png"
               alt="something"
-              width={300}
-              height={200}
+              width={330}
+              height={230}
             />
             <h1 className="absolute -mt-28 text-white justify-center text-3xl ml-24">
               Dallas
@@ -44,8 +43,8 @@ const About = () => {
           <Image
             src="/images/houstin.png"
             alt="something"
-            width={300}
-            height={200}
+            width={330}
+            height={230}
           />
           <h1 className="absolute -mt-28 text-white justify-center text-3xl ml-24">
             Houstin
@@ -56,8 +55,8 @@ const About = () => {
           <Image
             src="/images/losangelos.png"
             alt="something"
-            width={300}
-            height={200}
+            width={330}
+            height={230}
           />
           <h1 className="absolute -mt-28 text-white justify-center text-3xl ml-24">
             Los Angelos
@@ -68,8 +67,8 @@ const About = () => {
           <Image
             src="/images/miami.png"
             alt="something"
-            width={300}
-            height={200}
+            width={330}
+            height={230}
           />
           <h1 className="absolute -mt-32 text-white justify-center text-3xl ml-24">
             Miami
@@ -80,8 +79,8 @@ const About = () => {
           <Image
             src="/images/newyork.png"
             alt="something"
-            width={300}
-            height={200}
+            width={330}
+            height={230}
           />
           <h1 className="absolute -mt-32 text-white justify-center text-3xl ml-24">
             New york
@@ -91,8 +90,8 @@ const About = () => {
           <Image
             src="/images/sandeigo.png"
             alt="something"
-            width={300}
-            height={200}
+            width={330}
+            height={230}
           />
           <h1 className="absolute -mt-32 text-white justify-center text-3xl ml-24">
             Sandeigo
@@ -103,8 +102,8 @@ const About = () => {
           <Image
             src="/images/seatile.png"
             alt="something"
-            width={300}
-            height={200}
+            width={330}
+            height={230}
           />
           <h1 className="absolute -mt-32 text-white justify-center text-3xl ml-24">
             Seatile

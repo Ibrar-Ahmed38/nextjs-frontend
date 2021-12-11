@@ -1,6 +1,4 @@
 import Image from "next/image";
-import 'tailwindcss/tailwind.css'
-
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,15 +12,12 @@ SwiperCore.use([Pagination, Navigation]);
 
 function Carousel() {
   return (
-    <div className="carousel  flex flex-wrap bg-gray-50">
+    <div className="carousel flex bg-gray-50">
+
       <div className="images ">
         <Image src="/images/image1.png" width={600} height={600} />
       </div>
-      <div className="text-1xl font-bold pt-10 md:text-2xl lg:text-4xl ">
-          <h1>What Clients Are Saying</h1>
-          <h1>About Our Masseurs</h1>
-      </div>
-      <div className="absolute   pt-48 h-full ml-72">
+      <div className="absolute pt-40 h-full ml-52">
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -35,7 +30,7 @@ function Carousel() {
           navigation={true}
           className="mySwiper"
         >
-          <SwiperSlide className="slider-width pt-8 ">
+          <SwiperSlide className="slider-width pt-8">
               <div >
                   <p className="text-sm">  
                 Synth chartreuse Iphone cray raw claim bunch everyday carry
@@ -58,7 +53,7 @@ function Carousel() {
               </div>
           </SwiperSlide>
           <SwiperSlide className="slider-width pt-8">
-          <div >
+              <div >
                   <p className="text-sm">  
                 Synth chartreuse Iphone cray raw claim bunch everyday carry
                 neutra before they sold out fixie 90% microdosing. Tacos
@@ -80,8 +75,9 @@ function Carousel() {
               </div>
           </SwiperSlide>
 
-          <SwiperSlide className="slider-width md:w1/2 lg:2/4">Slide 3</SwiperSlide>
+          <SwiperSlide className="slider-width">Slide 3</SwiperSlide>
           <SwiperSlide className="slider-width">Slide 4</SwiperSlide>
+          <SwiperSlide className="slider-width">Slide 5</SwiperSlide>
           
         </Swiper>
       </div>
