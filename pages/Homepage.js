@@ -11,7 +11,6 @@ export default function Homepage  (){
                         <h1 className=" text-2xl text-white  mb-4 font-bold md:text-5xl lg:text-6xl"> Gay-Friendly male</h1>
                         <h1 className="text-2xl  text-white font-bold md:text-5xl lg:text-6xl ">Masseur near you</h1>
                     </div>
-
                     
                         <div className="absolute pt-8  h-28 rounded-md border-2 bg-gray-50 mb-20 shadow md:w-2/5 lg:w-2/4">
                         <div className="search__location">
@@ -24,9 +23,7 @@ export default function Homepage  (){
                                 <p className="font-medium">Cadriff, USA</p>
                                    
                                 </div>
-                                
                             </div>
-                            
                             <div className="btn text-center ">
                                 <button className="w-32 h-12 rounded-md ml-44 bg-red-700 md:ml-64 lg:ml-96">Search</button>
                             </div>
@@ -34,8 +31,8 @@ export default function Homepage  (){
                     
                 </div>
 
-                <div className="child_div  ml-3.5">
-                    <Image  src="/images/rectangle.png" className='absolute md:w-full lg:w-full' width={720} height={690}/>
+                <div className="relative child_div ml-3.5">
+                    <Image  src="/images/rectangle.png" alt='ss' className='absolute md:w-full lg:w-full' width={720} height={690}/>
                 </div>
             </div>
         </div>

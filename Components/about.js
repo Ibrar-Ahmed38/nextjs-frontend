@@ -10,9 +10,9 @@ const About = () => {
       </div>
 
       <div className="flex px-14 py-14 pt-14 gap-x-8 gap-y-8 mx-auto flex-wrap">
-        <div className="flex-wrap austin__Card ">
-          <div>
-            <Image
+        <div className="flex-wrap austin__Card hover:bg-gray-600 ">
+          <div className="bg-gray-700 overflow-visible">
+            <Image 
               src="/images/austin.png"
               alt="something"
               className="items-center justify-items-center mx-auto"
