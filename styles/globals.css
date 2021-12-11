@@ -71,3 +71,7 @@ a {
   background-image: url('../public/images/rectangle.png');
 }
 
+.serach_icon{
+  position: absolute;
+  margin-top: 10px;
+}

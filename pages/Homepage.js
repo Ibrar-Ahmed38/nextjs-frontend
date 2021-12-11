@@ -13,11 +13,11 @@ export default function Homepage  (){
                     </div>
 
                     
-                        <div className="absolute w-2/4 h-28 rounded-md border-2 bg-gray-50 mb-20 shadow">
+                        <div className="absolute pt-8 w-2/4 h-28 rounded-md border-2 bg-gray-50 mb-20 shadow">
                         <div className="search__location">
-                        <TiLocation className=" text-gray-900  ml-12 text-3xl"/>
+                        <TiLocation className="serach_icon text-gray-900  ml-12 text-3xl"/>
                         </div>
-                            <div className="absolute headings text-sm  pl-32 ">
+                            <div className="absolute headings text-sm pl-32 ">
                                
                                 <p className="text-gray-600 font-medium mb-5">city or postal code</p>
                                 <div className="">           
