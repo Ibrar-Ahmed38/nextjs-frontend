@@ -45,16 +45,18 @@
   background-color: #ffffff;
 }
 
-.imges {
-  position: absolute;
-  top: 0;
-}
+
 .skew_container {
   background-color: rgb(54, 54, 54);
-  width: 80%;
+  width: 70%;
   height: 100%;
   position: absolute;
   top: 0%;
   left: 0%;
   transform: skew(-22deg, 0deg) translateX(-151px);
 }
+
+.white__bar{
+  width: 700px;
+}
+
