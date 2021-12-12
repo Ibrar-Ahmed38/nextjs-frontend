@@ -32,7 +32,7 @@ export default function Homepage  (){
                 </div>
 
                 <div className="ml-36">
-                    <Image  src="/images/rectangle.png" alt='ss' width={734} height={757}/>
+                    <Image  src="images/rectangle.png" alt='ss' width={734} height={757}/>
                 </div>
             </div>
         </div>

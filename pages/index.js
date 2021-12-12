@@ -17,17 +17,12 @@ const index = () => {
 				<div className="flex justify-between">
 					<div className="flex space-x-7">
 						<div>
-					
-							<Link href=""><a className="flex items-center py-4 px-2">
-								
+							<Link href=""><a className="flex items-center py-4 px-2">	
 								<span className="font-semibold text-3xl">Mr Masseur</span>
 							</a>
 							</Link> 
 						</div>
-					
-					
 					</div>
-				
 					<div className="hidden md:flex items-center space-x-3 ">
 						<a href="" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-red-700 hover:text-white transition duration-300">Log In</a>
 						<Link href="/Signup"><a  className="py-2 px-2 font-medium w-32 text-center text-white bg-red-700 rounded hover:bg-red-900 transition duration-300">Sign Up</a></Link>
@@ -50,12 +45,12 @@ const index = () => {
 			</div>
 		
 		</nav>
-		<Homepage /> 
+		 <Homepage /> 
 		   <About/> 
 		  <Services/> 
-		  <Details/> 
-		 {/* <Carousel />
-		<Find />  */}
+		<Details/> 
+		 <Carousel /> 
+		<Find />  
 	
 		
     </div>

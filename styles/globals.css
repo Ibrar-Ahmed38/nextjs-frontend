@@ -3,8 +3,10 @@
   height: 100%;
 }
 .swiper {
-  width: 1000px;
-  height: 70%;
+  width: 900px;
+  height: 50%;
+  padding-right: 200px;
+
 }
 
 .slider-width{

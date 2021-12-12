@@ -12,14 +12,15 @@ export default function Details() {
               Select a Plan thats right for you business
             </p>
 
-            <div className="pt-8">
+            <div className="relative m-0 pt-8">
               <button className="text-red-700 bg-gray-100 w-40 h-14  font-bold rounded-md">Get Started</button>
             </div>
+            <div className="images absolute  items-center justify-center mx-auto ">
+            <Image src="images/design.png" alt="Somethingelse"  width={230} height={425} />
+          </div>
           </div>
 
-          <div className="images  items-center justify-center mx-auto   ">
-            <Image src="/images/design.png" alt="Somethingelse" className="imges pt-4" width={230} height={425} />
-          </div>
+          
         </div>
       </div>
     </div>

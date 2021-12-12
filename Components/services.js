@@ -14,7 +14,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="/images/3.png"
+                    src="images/3.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -40,7 +40,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="/images/2.png"
+                    src="images/2.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -66,7 +66,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="/images/1.png"
+                    src="./images/1.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -92,7 +92,7 @@ export default function Services() {
                 <div className="text-center pt-4">
                   <Image
                     className=""
-                    src="/images/4.png"
+                    src="images/4.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -118,7 +118,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="/images/5.png"
+                    src="images/5.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
