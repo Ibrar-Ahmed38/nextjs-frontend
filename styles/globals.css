@@ -46,7 +46,12 @@
   background-color: #FFFFFF;
 }
 
-.imges{
-  position: absolute;
-  top: 0;
+.desgin__img{
+
 }
+
+.images{
+  margin: 0;
+  margin-left: 700px;
+}
+
