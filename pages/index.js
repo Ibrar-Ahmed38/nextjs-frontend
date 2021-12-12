@@ -48,10 +48,10 @@ const index = () => {
 		 <Homepage /> 
 		   <About/> 
 		  <Services/> 
-		<Details/> 
-		 <Carousel /> 
-		<Find />  
-	
+		
+		  <Carousel /> 
+		  <Details/> 
+		{/* <Find />   */}
 		
     </div>
   )

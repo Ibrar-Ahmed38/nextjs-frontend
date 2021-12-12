@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const About = () => {
+function About  () {
   return (
     <div>
       <div className="flex p-10">
@@ -13,7 +13,7 @@ const About = () => {
         <div className="flex-wrap">
           <div className="relative m-0">
             <Image
-              src="images/austin.png"
+              src="/images/austin.png"
               alt="something"
               className="items-center justify-items-center mx-auto"
               width={330}
@@ -30,7 +30,7 @@ const About = () => {
         <div className="flex-wrap">
           <div className="relative m-0">
             <Image
-              src="images/dallas.png"
+              src="/images/dallas.png"
               alt="something"
               width={330}
               height={230}
@@ -62,7 +62,7 @@ const About = () => {
         <div className="relative m-0">
         <div className="flex-wrap">
           <Image
-            src="images/losangelos.png"
+            src="/images/losangelos.png"
             alt="something"
             width={330}
             height={230}
@@ -79,7 +79,7 @@ const About = () => {
         <div className="flex-wrap">
           <div className="relative m-0">
           <Image
-            src="images/miami.png"
+            src="/images/miami.png"
             alt="something"
             width={330}
             height={230}
@@ -96,7 +96,7 @@ const About = () => {
         <div className="flex-wrap">
           <div className="relative m-0">
           <Image
-            src="images/newyork.png"
+            src="/images/newyork.png"
             alt="something"
             width={330}
             height={230}
@@ -112,7 +112,7 @@ const About = () => {
         <div className="flex-wrap">
           <div className="relative m-0">
           <Image
-            src="images/sandeigo.png"
+            src="/images/sandeigo.png"
             alt="something"
             width={330}
             height={230}
@@ -146,5 +146,5 @@ const About = () => {
   );
 };
 
-export default About;
- 
+
+export default About

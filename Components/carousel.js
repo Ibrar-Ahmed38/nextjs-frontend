@@ -10,12 +10,12 @@ import "../styles/Home.module.css";
 
 SwiperCore.use([Pagination, Navigation]);
 
-function Carousel() {
+ function Carousel() {
   return (
-    <div className="carousel flex bg-gray-50">
+    <div className="carousel pt-8 flex bg-gray-50">
 
       <div className="images relative m-0 ">
-        <Image src="images/halfimg.png" alt="image1" width={600} height={600} />
+        <Image src="/images/halfimg.png" alt="image1" width={700} height={700} />
       </div>
       <div className="absolute pt-44 ml-32">
         <Swiper
@@ -39,7 +39,7 @@ function Carousel() {
               </p>
 
                 <div className="pt-8">
-                    <Image  src="images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
+                    <Image  src="/images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
                 </div>
                 <div className="headings text">
                     <h1>Holden caulfield</h1>
@@ -60,7 +60,7 @@ function Carousel() {
               </p>
 
                 <div className="pt-8">
-                    <Image  src="images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
+                    <Image  src="/images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
                 </div>
                 <div className="headings text">
                     <h1>Holden caulfield</h1>
@@ -104,7 +104,7 @@ function Carousel() {
               </p>
 
                 <div className="pt-8">
-                    <Image  src="images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
+                    <Image  src="/images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
                 </div>
                 <div className="headings text">
                     <h1>Holden caulfield</h1>
@@ -126,7 +126,7 @@ function Carousel() {
               </p>
 
                 <div className="pt-8">
-                    <Image  src="images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
+                    <Image  src="/images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
                 </div>
                 <div className="headings text">
                     <h1>Holden caulfield</h1>
@@ -145,4 +145,5 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+
+export default Carousel

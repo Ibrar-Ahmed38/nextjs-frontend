@@ -57,7 +57,7 @@ export default function Signup() {
                     </div>
 
                     <div className="pt-3">
-                        <button className="block	w-3/4 items-center justify-center mx-auto text-white mt-2 bg-red-700 h-10 hover:bg-red-800">
+                        <button className="block w-3/4 items-center justify-center mx-auto text-white mt-2 bg-red-700 h-10 hover:bg-red-800">
                             Create an account
                         </button>
                     </div>

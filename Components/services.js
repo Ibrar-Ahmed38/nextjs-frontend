@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Services() {
+ function Services() {
   return (  <div className="flex flex-wrap  bg-gray-50">
       <div className="service bg-gray-50  ">
         <h1 className="text-center text-3xl pt-8  mb-8 font-bold">
@@ -14,7 +14,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="images/3.png"
+                    src="/images/3.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -40,7 +40,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="images/2.png"
+                    src="/images2.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -66,7 +66,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="./images/1.png"
+                    src="/images/1.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -92,7 +92,7 @@ export default function Services() {
                 <div className="text-center pt-4">
                   <Image
                     className=""
-                    src="images/4.png"
+                    src="/images/4.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -118,7 +118,7 @@ export default function Services() {
                 <div className="text-center pt-8">
                   <Image
                     className=""
-                    src="images/5.png"
+                    src="/images/5.png"
                     width={50}
                     height={60}
                     alt="Sunset in the mountains"
@@ -142,3 +142,5 @@ export default function Services() {
     </div>
   );
 }
+
+export default Services
