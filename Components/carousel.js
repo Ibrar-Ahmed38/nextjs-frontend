@@ -17,10 +17,10 @@ SwiperCore.use([Pagination, Navigation]);
       <div className="images relative m-0 ">
         <Image src="/images/halfimg.png" alt="image1" width={700} height={700} />
       </div>
-      <div className="absolute pt-44 ml-32">
+      <div className="absolute w-screen max-w-md mx-auto pt-44">
         <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
+          slidesPerView={2}
+          spaceBetween={40}
           slidesPerGroup={3}
           loop={true}
           loopFillGroupWithBlank={true}
@@ -30,7 +30,7 @@ SwiperCore.use([Pagination, Navigation]);
           navigation={true}
           className="mySwiper"
         >
-          <SwiperSlide className="slider-width pt-8">
+          <SwiperSlide className="slider-width  mx-w-md mx-auto pt-8">
               <div className="pt-10" >
                   <p className="text">  
                 neutra before they sold out fixie 90% microdosing. Tacos
@@ -51,29 +51,7 @@ SwiperCore.use([Pagination, Navigation]);
                 </div>
               </div>
           </SwiperSlide>
-          <SwiperSlide className="slider-width pt-8">
-              <div className="pt-10" >
-                  <p className="text">  
-                neutra before they sold out fixie 90% microdosing. Tacos
-                pinterest fanny pack venmo, post-iconic heirlooom try-hard pabst
-                authentic iceland
-              </p>
-
-                <div className="pt-8">
-                    <Image  src="/images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
-                </div>
-                <div className="headings text">
-                    <h1>Holden caulfield</h1>
-                    <h1>UI Developer</h1>
-
-                    <div className="pt-4">
-                        <button className="text-white bg-red-800 rounded-md mb-8 w-32 h-10">See Profile</button>
-                    </div>
-                </div>
-              </div>
-          </SwiperSlide>
-
-          <SwiperSlide className="slider-width pt-8">
+          <SwiperSlide className="slider-width mx-w-md mx-auto pt-8">
               <div className="pt-10" >
                   <p className="text">  
                 neutra before they sold out fixie 90% microdosing. Tacos
@@ -95,7 +73,7 @@ SwiperCore.use([Pagination, Navigation]);
               </div>
           </SwiperSlide>
 
-          <SwiperSlide className="slider-width pt-8">
+          <SwiperSlide className="slider-width mx-w-md mx-auto pt-8">
               <div className="pt-10" >
                   <p className="text">  
                 neutra before they sold out fixie 90% microdosing. Tacos
@@ -117,7 +95,7 @@ SwiperCore.use([Pagination, Navigation]);
               </div>
           </SwiperSlide>
 
-          <SwiperSlide className="slider-width pt-8">
+          <SwiperSlide className="slider-width mx-w-md mx-auto pt-8">
               <div className="pt-10" >
                   <p className="text">  
                 neutra before they sold out fixie 90% microdosing. Tacos
@@ -126,6 +104,28 @@ SwiperCore.use([Pagination, Navigation]);
               </p>
 
                 <div className="pt-8">
+                    <Image  src="/images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
+                </div>
+                <div className="headings text">
+                    <h1>Holden caulfield</h1>
+                    <h1>UI Developer</h1>
+
+                    <div className="pt-4">
+                        <button className="text-white bg-red-800 rounded-md mb-8 w-32 h-10">See Profile</button>
+                    </div>
+                </div>
+              </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="slider-width mx-w-md mx-auto pt-8">
+              <div className="pt-10" >
+                  <p className="text">  
+                neutra before they sold out fixie 90% microdosing. Tacos
+                pinterest fanny pack venmo, post-iconic heirlooom try-hard pabst
+                authentic iceland
+              </p>
+
+                <div className="pt-8 mx-w-md mx-auto">
                     <Image  src="/images/rectangle.png" alt="" width={40} height={40} className="rounded-full"/>
                 </div>
                 <div className="headings text">

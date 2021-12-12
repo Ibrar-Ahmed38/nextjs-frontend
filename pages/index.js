@@ -138,12 +138,12 @@ const index = () => {
           </ul>
         </div>
       </nav>
-      <Homepage />
+      <Homepage /> 
       <About />
       <Services />
 
       <Carousel />
-      {/* <Details /> */}
+      {/* <Details />
       {/* <Find />   */}
     </div>
   );
