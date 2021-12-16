@@ -4,7 +4,7 @@ const Homepage = () => {
     return (
         <div
         className="relative  overflow-hidden bg-gray-900  w-screen"
-        style={{ height: "40rem" }}
+           style={{  height: "40rem" }}/>
       >
         <div className="absolute bg-gray-900 top-0 left-0 w-full">
           <div className="flex justify-between ">
@@ -45,7 +45,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     );
   }
   
